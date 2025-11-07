@@ -28,26 +28,18 @@ It measures **throughput, fairness, stability, and resilience**, generating anal
 - Demonstrates deep understanding of **network behavior under stress**  
 - Aligns with **Security Engineering**, **BAS**, and **MXDR** systems used at NopalCyber
 
-## 🧩 How to Run
-```bash
-python3 generate_data.py
-python3 analyze_results.py
+ ## How to Run
+ python3 generate_data.py
+ python3 analyze_results.py
 
-## 🧩 Technologies Used
-
-Python 3.10+
-
-Mininet
-
-Iperf
-
-Pandas
-
-Matplotlib
-
-NumPy
-
-Linux Networking Utilities
+## Technologies Used
+- Python 3.10+
+- Mininet
+- Iperf
+- Pandas
+- Matplotlib
+- NumPy
+- Linux Networking Utilities
 
 ## 📈 Future Enhancements
 
