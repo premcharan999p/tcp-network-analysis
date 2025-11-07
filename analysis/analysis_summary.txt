@@ -1,0 +1,51 @@
+TCP Performance Analysis Summary
+===============================
+
+1. Throughput Analysis
+---------------------
+The analysis of throughput data across different TCP variants and network types reveals:
+
+LAN Network:
+- Best performing: Cubic with average throughput of 81.36 Mbps
+- Tahoe: Avg=45.34 Mbps, Max=89.42 Mbps, Min=9.53 Mbps, Std Dev=30.55 Mbps
+- Reno: Avg=67.89 Mbps, Max=95.13 Mbps, Min=9.90 Mbps, Std Dev=32.87 Mbps
+- Cubic: Avg=81.36 Mbps, Max=98.10 Mbps, Min=37.17 Mbps, Std Dev=16.96 Mbps
+
+WLAN Network:
+Error reading throughput statistics: single positional indexer is out-of-bounds
+
+2. Stability and Fairness Analysis
+--------------------------------
+The analysis of stability (coefficient of variation) and fairness (Jain's Fairness Index) reveals:
+
+LAN Network:
+- Most stable: Cubic with CV of 0.2084
+- Fairest: Cubic with JFI of 0.9597
+- Tahoe: CV=0.6738 (lower is better), JFI=0.6950 (higher is better)
+- Reno: CV=0.4842 (lower is better), JFI=0.8153 (higher is better)
+- Cubic: CV=0.2084 (lower is better), JFI=0.9597 (higher is better)
+
+WLAN Network:
+Error reading stability statistics: single positional indexer is out-of-bounds
+
+3. Network Impact Analysis
+-------------------------
+The analysis of the impact of network type (LAN vs. WLAN) on TCP performance reveals:
+
+- Most resilient to network change: Tahoe with 45.77% performance decrease
+
+- Tahoe: LAN=45.34 Mbps, WLAN=24.59 Mbps, Decrease=45.77%
+- Reno: LAN=67.89 Mbps, WLAN=24.26 Mbps, Decrease=64.27%
+- Cubic: LAN=81.36 Mbps, WLAN=26.05 Mbps, Decrease=67.98%
+
+4. Overall Conclusions
+---------------------
+Based on the comprehensive analysis of throughput, stability, fairness, and network resilience, TCP Cubic appears to be the best overall performer in our test scenarios.
+
+Overall scores (higher is better):
+- TCP Cubic: 11 points
+- TCP Reno: 10 points
+- TCP Tahoe: 9 points
+
+Specific conclusions:
+Error generating overall conclusions: single positional indexer is out-of-bounds

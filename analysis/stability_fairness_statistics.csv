@@ -1,0 +1,7 @@
+Network,TCP Variant,Coefficient of Variation (lower is better),Jain's Fairness Index (higher is better)
+LAN,Tahoe,0.6738,0.6950
+LAN,Reno,0.4842,0.8153
+LAN,Cubic,0.2084,0.9597
+WLAN,Tahoe,0.4849,0.8148
+WLAN,Reno,0.3683,0.8841
+WLAN,Cubic,0.5086,0.8000

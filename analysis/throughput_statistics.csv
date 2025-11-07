@@ -1,0 +1,7 @@
+Network,TCP Variant,Avg Throughput (Mbps),Max Throughput (Mbps),Min Throughput (Mbps),Std Dev (Mbps)
+LAN,Tahoe,45.34,89.42,9.53,30.55
+LAN,Reno,67.89,95.13,9.90,32.87
+LAN,Cubic,81.36,98.10,37.17,16.96
+WLAN,Tahoe,24.59,46.38,6.01,11.92
+WLAN,Reno,24.26,37.85,6.90,8.93
+WLAN,Cubic,26.05,52.22,0.24,13.25

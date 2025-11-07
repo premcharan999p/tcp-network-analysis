@@ -1,0 +1,4 @@
+TCP Variant,LAN Avg Throughput (Mbps),WLAN Avg Throughput (Mbps),Performance Decrease (%)
+Tahoe,45.34,24.59,45.77
+Reno,67.89,24.26,64.27
+Cubic,81.36,26.05,67.98
