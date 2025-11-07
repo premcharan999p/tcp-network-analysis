@@ -33,7 +33,7 @@ It measures **throughput, fairness, stability, and resilience**, generating anal
 python3 generate_data.py
 python3 analyze_results.py
 
-🧩 Technologies Used
+## 🧩 Technologies Used
 
 Python 3.10+
 
@@ -49,7 +49,7 @@ NumPy
 
 Linux Networking Utilities
 
-📈 Future Enhancements
+## 📈 Future Enhancements
 
 🔹 Integrate Zeek / Suricata for IDS-driven anomaly detection
 🔹 Extend topology to include simulated attack traffic (SYN floods, DDoS)
